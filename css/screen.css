@@ -227,9 +227,13 @@ p {
 }
 
 label {
-  font-family: 'Chakra Petch', 'Courier New', sans-serif;
+  font-family: 'Barlow', 'Arial', sans-serif;
   font-size: 0.875em;
   color: white;
+}
+
+#userFN + #userLN {
+  display: flex;
 }
 
 input[type="checkbox"] + label{
