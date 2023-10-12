@@ -4,3 +4,7 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
+function popup() {
+  var popup = document.getElementById("signup");
+  popup.classList.toggle("show");
+}
