@@ -10,7 +10,35 @@
 <body>
 <main id="content">
   <form method="get" action="#null">
-
+    <h1>Be who you've always wanted to be!</h1>
+    <p>
+      Sign up to connect with a style mentor:
+    </p>
+    <ol>
+      <li id="userFN">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" >
+      </li>
+      <li id="userLN">
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" >
+      </li>
+      <li id="user-email">
+        <label for="email">Your email:</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$" >
+      </li>
+      <li id="phone-number">
+        <label for="phone">Your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </li>
+      <li id="input-age-verification">
+        <input type="checkbox" id="age-verification" name="age-verification" value="18" >
+        <label for="age-verification">I am over 18 years old</label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Subscribe" >
+      </li>
+    </ol>
   </form>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
