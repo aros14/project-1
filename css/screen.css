@@ -203,12 +203,15 @@ html {
 
 label {
   display: block;
+  font-family: 'Barlow', 'Arial', sans-serif;
+  font-size: 0.875em;
+  color: #3d0023;
 }
 
 /* ===== LAYOUT STYLES ====== */
 #content {
   text-align: center;
-  background-color: rgb(165, 165, 168);
+  background-color: #ffd8e6;
 }
 
 h1 {
@@ -222,19 +225,10 @@ h1 {
 p {
   margin: 1em;
   padding-bottom: 1.5em;
-  font-family: 'Barlow', 'Arial', sans-serif;
+  font-family: 'Barlow', 'Arial', sans-serif;;
   font-size: 0.875em;
 }
 
-label {
-  font-family: 'Barlow', 'Arial', sans-serif;
-  font-size: 0.875em;
-  color: white;
-}
-
-#userFN + #userLN {
-  display: flex;
-}
 
 input[type="checkbox"] + label{
   width: auto;
@@ -251,8 +245,8 @@ input[type="checkbox"] + label{
   padding: 1em;
 }
 
-#submit {
-  font-family: 'Chakra Petch', 'Courier New', sans-serif;
+#signup {
+  font-family: 'Barlow', 'Arial', sans-serif;
 }
 
 /* ===== STATE STYLES ======= */
