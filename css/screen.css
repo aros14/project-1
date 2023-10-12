@@ -300,9 +300,31 @@ input[type="checkbox"] + label{
     flex-direction: row;
   }
   input[type="text"] {
-  width: 95%;
-  height: auto;
-  display: inline;
-  vertical-align: top;
+    width: 95%;
+    height: auto;
+    display: inline;
+    vertical-align: top;
+  }
+  .emphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #email-phone {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+  input[type="email"] {
+    width: 95%;
+    height: auto;
+    display: inline;
+    vertical-align: top;
+  }
+  input[type="tel"] {
+    width: 95%;
+    height: auto;
+    display: inline;
+    vertical-align: top;
   }
 }
