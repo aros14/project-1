@@ -270,17 +270,22 @@ input[type="checkbox"] + label{
   font-family: 'Barlow', 'Arial', sans-serif;
   background-color: #d0ee82;S
 
-
 /* ===== STATE STYLES ======= */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 620px) {
+  
   p {
+    color: white;
+    font-family: "Times New Roman";
     font-size: 1.2em;
     padding-bottom: .7em;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 620px) {
+  
   p {
+    color: white;
+    font-family: "Times New Roman";
     font-size: 1.2em;
     padding-bottom: .7em;
   }
