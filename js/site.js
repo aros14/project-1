@@ -13,4 +13,5 @@ function init(){
   }
 
   button.addEventListener('click', setAlert);
-  }
+ }
+window.addEventListener('load', init);
