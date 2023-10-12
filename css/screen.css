@@ -291,6 +291,8 @@ input[type="checkbox"] + label{
   }
   .FLnames {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #namefields {
     margin: 0;
@@ -298,7 +300,7 @@ input[type="checkbox"] + label{
     flex-direction: row;
   }
   input[type="text"] {
-  width: 70%;
+  width: 95%;
   height: auto;
   display: inline;
   vertical-align: top;
