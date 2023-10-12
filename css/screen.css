@@ -231,7 +231,6 @@ p {
 }
 
 input[type="text"] {
-  width: 45%;
   height: auto;
   display: inline;
   vertical-align: top;
@@ -268,25 +267,40 @@ input[type="checkbox"] + label{
 
 #signup {
   font-family: 'Barlow', 'Arial', sans-serif;
-  background-color: #d0ee82;S
-
+  background-color: #d0ee82;
+}
 /* ===== STATE STYLES ======= */
-@media screen and (min-width: 620px) {
-  
+
+@media screen and (min-width: 481px) {
+  h1 {
+    font-size: 1.5em;
+    padding: 1em; 
+  }
   p {
-    color: white;
-    font-family: "Times New Roman";
     font-size: 1.2em;
     padding-bottom: .7em;
   }
+  #user-int-options {
+    padding: .6em;
+  }
 }
-
-@media screen and (min-width: 620px) {
-  
+@media screen and (min-width: 1024px) {
   p {
-    color: white;
-    font-family: "Times New Roman";
     font-size: 1.2em;
     padding-bottom: .7em;
+  }
+  .FLnames {
+    display: flex;
+  }
+  #namefields {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+  input[type="text"] {
+  width: 70%;
+  height: auto;
+  display: inline;
+  vertical-align: top;
   }
 }
