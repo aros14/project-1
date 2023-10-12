@@ -4,7 +4,13 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-function popup() {
-  var popup = document.getElementById("signup");
-  popup.classList.toggle("show");
-}
+function init(){
+  var button = document.getElementById('signup');
+
+  function setAlert(){
+    var inText = document.getElementById('firstname');  
+    alert("Hey " + inText.value + ", welcome to the cool kids club!");
+  }
+
+  button.addEventListener('click', setAlert);
+  }
