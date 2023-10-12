@@ -215,7 +215,7 @@ label {
 }
 
 h1 {
-  margin-bottom: 1.5em;
+  margin-bottom: .5em;
   padding: 0.75em;
   font-family: 'Young Serif', "Times New Roman", cursive;
   font-weight: 600;
@@ -224,10 +224,21 @@ h1 {
 }
 
 p {
-  margin: 1em;
+  margin: .75em;
   padding-bottom: 1.5em;
   font-family: 'Barlow', 'Arial', sans-serif;
   font-size: 0.875em;
+}
+
+input[type="text"] {
+  width: 45%;
+  height: auto;
+  display: inline;
+  vertical-align: top;
+}
+
+#user-gender {
+  padding: .5em;
 }
 
 #gender {
@@ -261,7 +272,14 @@ input[type="checkbox"] + label{
 
 
 /* ===== STATE STYLES ======= */
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 481px) {
+  p {
+    font-size: 1.2em;
+    padding-bottom: .7em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   p {
     font-size: 1.2em;
     padding-bottom: .7em;
