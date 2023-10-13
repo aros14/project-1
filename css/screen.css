@@ -290,42 +290,42 @@ input[type="checkbox"] + label{
     font-size: 1.2em;
     padding-bottom: .7em;
   }
-  .FLnames {
+
+  .wrap ul {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
-  #namefields {
+
+  #userFN, #userLN {
     margin: 0;
     padding: 0;
     flex-direction: row;
   }
   input[type="text"] {
-    width: 95%;
+    width: 70%;
     height: auto;
     display: inline;
     vertical-align: top;
-  }
-  .emphone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #email-phone {
+  } 
+
+  #user-email, #phone-number {
     margin: 0;
     padding: 0;
     flex-direction: row;
   }
   input[type="email"] {
-    width: 95%;
+    width: 70%;
     height: auto;
     display: inline;
     vertical-align: top;
   }
   input[type="tel"] {
-    width: 95%;
+    width: 70%;
     height: auto;
     display: inline;
     vertical-align: top;
-  }
+  } 
 }

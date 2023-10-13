@@ -15,27 +15,31 @@
     <p>
       Sign up to connect with a style mentor:
     </p>
-    <ul>
-      <div id="namefields" class="FLnames">
-        <li id="userFN">
+    <div class="wrap">
+      <ul>
+        <li id="userFN" class ="FLnames">
           <label for="firstname">First Name:</label>
           <input type="text" name="firstname" id="firstname" >
         </li>
-        <li id="userLN">
+        <li id="userLN" class ="FLnames">
           <label for="lastname">Last Name:</label>
           <input type="text" name="lastname" id="lastname" >
         </li>
-      </div>
-      <div id="email-phone" class="emphone">
-        <li id="user-email">
+      </ul>
+    </div>
+    <div class="wrap">
+      <ul>
+        <li id="user-email" class="emphone">
           <label for="email">Your email:</label>
           <input type="email" name="email" id="email" pattern="^.+@.+$" >
         </li>
-        <li id="phone-number">
+        <li id="phone-number" class="emphone">
           <label for="phone">Your phone number:</label>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
         </li>
-      </div>
+      </ul>
+    </div>
+    <ul>
       <li id="user-gender">
         <label for="gender">Specify your gender:</label>
         <select name="gender" id="gender">
@@ -63,6 +67,7 @@
         <button id="signup">Sign me up!</button>
       </li>
     </ul>
+  
   </form>
 </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
