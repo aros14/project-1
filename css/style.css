@@ -4,20 +4,17 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
-
 label {
   display: block;
   font-family: 'Barlow', 'Arial', sans-serif;
   font-size: 0.875em;
   color: #3d0023;
 }
-
 /* ===== LAYOUT STYLES ====== */
 #content {
   text-align: center;
   background-color: #ffd8e6;
 }
-
 h1 {
   margin-bottom: .5em;
   padding: 0.75em;
@@ -26,56 +23,46 @@ h1 {
   font-size: 1.8em;
   color: #96416a;
 }
-
 p {
   margin: .75em;
   padding-bottom: 1.5em;
   font-family: 'Barlow', 'Arial', sans-serif;
   font-size: 0.875em;
 }
-
 input[type="text"] {
   height: auto;
   display: inline;
   vertical-align: top;
 }
-
 #user-gender {
   padding: .5em;
 }
-
 #gender {
   background-color: #d0ee82;
   font-family: 'Barlow', 'Arial', sans-serif;
 }
-
 #useroptions {
   background-color: #d0ee82;
   font-family: 'Barlow', 'Arial', sans-serif;
 }
-
 input[type="checkbox"] + label{
   width: auto;
   height: auto;
   display: inline;
   vertical-align: top;
 }
-
 #user-age-verification{
   padding: 1em;
 }
-
 #sign-up {
   padding: 1em;
 }
-
 #signup {
   font-family: 'Barlow', 'Arial', sans-serif;
   background-color: #d0ee82;
   border-radius: 25%;
 }
 /* ===== STATE STYLES ======= */
-
 @media screen and (min-width: 481px) {
   h1 {
     font-size: 1.5em;

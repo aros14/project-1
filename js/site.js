@@ -3,7 +3,6 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
-
 function init(){
   var button = document.getElementById('signup');
 
