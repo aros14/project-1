@@ -134,4 +134,10 @@ input[type="checkbox"] + label{
     display: inline;
     vertical-align: top;
   } 
+  #gender {
+  width: 30%;
+  }
+  #useroptions {
+  width: 30%;
+  }
 }
