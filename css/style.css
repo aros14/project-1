@@ -33,17 +33,32 @@ input[type="text"] {
   height: auto;
   display: inline;
   vertical-align: top;
+  width: 90%;
 }
+input[type="email"] {
+  width: 90%;
+  height: auto;
+  display: inline;
+  vertical-align: top;
+}
+input[type="tel"] {
+  width: 90%;
+  height: auto;
+  display: inline;
+  vertical-align: top;
+} 
 #user-gender {
   padding: .5em;
 }
 #gender {
   background-color: #d0ee82;
   font-family: 'Barlow', 'Arial', sans-serif;
+  width: 90%;
 }
 #useroptions {
   background-color: #d0ee82;
   font-family: 'Barlow', 'Arial', sans-serif;
+  width: 90%;
 }
 input[type="checkbox"] + label{
   width: auto;
